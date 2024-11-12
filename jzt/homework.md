@@ -3,11 +3,11 @@
     将文件恢复到最后一次提交的状态，可以使用命令git restore <文件名>
     将已上传从暂存区移除，可以使用命令git restore --staged <文件名>
     
-   ![一.1](images/1(1).png)
+   ![一.1](jzt/images/1(1）.png)
 
 2.使用git reset命令配合git checkout或git restore
 使用git reset命令可以将当前分支的提交历史重置到指定的提交点，再使用 git restore --staged --worktree<文件名> 来同时撤销工作目录和暂存区的修改，使其恢复文件状态。
-![一.2](images/1(2).png)
+![一.2](jzt/images/1(2）.png)
     
 二、若已经提交了一个新版本，需要回退该版本的操作：
 1.不修改历史
